@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daypage Home</title>
+    <link rel="stylesheet" href="assets/css/estilocadastro.css" >
+</head>
+
+<body>
+    <header>
+        <div id="titulo"><h3><a href="telaboasvindas.html" id="boasvindas">Daypage</a></h3></div>
+        <div id="subtitulo"><p>Cada dia é uma nova página da sua história...</p>
+        </div>
+    </header>
+    <main>
+    <section>
+
+        <form id="formulario">
+        <div id="campos">
+
+        <p>  <label for="nomeUsuario"> Nome </label>
+            <input type="text" name="nome" id="nomeUsuario" required>
+        </p>
+        <p>
+            <label for="senha"> Senha </label>
+            <input type="password" name="senha" id="senha" required>
+        </p>
+        <p>
+            <label for="confirmacaosenha"> Confirme a Senha </label>
+            <input type="password" name="confirmacaosenha" id="confirmacaosenha" required>
+        </p>
+        </div>
+
+        <div class="botoes">
+
+        <button type="button" id="btnvoltar"> Voltar </button>
+        <button type="submit"> Criar conta </button>
+        </div>
+        </form>
+
+    </section>
+    </main>
+
+    <div class="popUpUsuEx" id="popUpUsuEx">
+        <p id="msgExiste"></p>
+        <button id="btnExiste"> OK </button>
+
+    </div>
+    
+
+    <div class="popUpCadSu" id="popUpCadSu">
+        <p id="msgCad"></p>
+        <button id="btnCad"> OK </button>
+
+    </div>
+
+    <div class="popUpErro" id="popUpErro">
+        <p id="msgErro"></p>
+        <button id="btnErro"> OK </button>
+
+    </div>
+    <footer>
+        <p>&copy; Yzadora Marciano</p>
+
+    </footer>
+    
+
+    <script src="assets/js/telacadastro.js"></script>
+</body>
+</html>
