@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daypage Login</title>
+    <link rel="stylesheet" href="assets/css/estilologin.css" >
+</head>
+
+<body>
+    <header>
+        <div id="titulo"><h3><a href="telaboasvindas.html" id="boasvindas">Daypage</a></h3></div>
+        <div id="subtitulo"><p>Cada dia é uma nova página da sua história...</p>
+        </div>
+    </header>
+    <main>
+    <section>
+
+        <form id="formulario">
+        <div id="campos">
+
+        <p>  <label for="nomeUsuario"> Nome </label>
+            <input type="text" name="nome" id="nomeUsuario" required>
+        </p>
+
+        <p>
+            <label for="senha"> Senha </label>
+            <input type="password" name="senha" id="senha" required>
+        </p>
+        </div>
+
+
+        <div class="botoes"><button type="button" id="btnvoltar"> Voltar </button>
+
+        <button type="submit"> Entrar </button></div>
+        </form>
+
+    </section>
+    </main>
+
+<!--Alertas-->
+    <div id="popupSemUsu" class="popupSemUsu">
+        <p id='msgSemUsu'></p>
+        <button id ='btnfecharPop'>OK</button>
+    </div>
+
+    <div id="popupSucesso" class="popupSucesso"> 
+        <p id="msgSucesso"></p>
+
+    </div>
+
+    <footer>
+        <p>&copy; Yzadora Marciano</p>
+
+    </footer>
+    
+
+    <script src="assets/js/telalogin.js"></script>
+</body>
+</html>
