@@ -216,7 +216,7 @@ btnsair.addEventListener ('click' , sairdaconta);
 
 function sairdaconta () {
 
-    window.location.href = '../index.html'; 
+    window.location.href = '../../index.html'; 
 
 }
 
