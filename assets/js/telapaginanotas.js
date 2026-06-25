@@ -96,7 +96,8 @@ function salvandonota() {
         conteudo: conteudo.value,
         data: hora.toLocaleDateString ('pt-BR'),
         hora: hora.getHours(),
-        minuto: hora.getMinutes ()
+        minuto: hora.getMinutes (),
+        ultimaEdicao: Date.now()
     }
 //vamos trazer o usuario logado novamente
 
