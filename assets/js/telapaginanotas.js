@@ -136,7 +136,7 @@ botaovoltar.addEventListener ('click', voltar)
 
 function voltar(){
 
-    window.location.href = '../home.html';
+    window.location.href = '../../home.html';
 }
 
     
