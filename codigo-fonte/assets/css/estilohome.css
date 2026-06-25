@@ -267,10 +267,19 @@ main {
     border: 2px solid #66acdd;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 250px;
+    
 
 
 
 }
+
+
+#containerNotas > div:hover {
+
+   cursor: pointer;
+   box-shadow: 0 0 15px rgba(2, 30, 131, 0.268);
+}
+
 
 
 #containerNotas > div > h4 {
@@ -301,6 +310,157 @@ main {
 
 
 }
+
+
+div#notaAberta {
+
+    display: none;
+
+}
+
+
+div#notaAberta.ativo {
+
+    display: flex;
+    flex-direction: column;
+    min-width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#titulonota {
+
+    border-radius: 30px;
+    resize: none;
+    height: 30px;
+    margin-bottom: 13px;
+    outline: solid 2px #66acdd;
+    border: none;
+    font-family: cursive;
+    padding: 5px 15px;
+
+}
+
+#conteudonota {
+
+    resize: none;
+    border-radius: 30px;
+    height: 50vh;
+    margin-bottom: 13px;
+    outline: solid 2px #66acdd;
+    border: none;
+    font-family: cursive;
+    padding: 15px 20px;
+
+}
+
+
+#btns {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 5px;
+}
+
+
+
+#btnEditar {
+
+
+    margin-top: 5px;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px;
+    background-color:  #48adf4;
+    color: #efefea;
+    transition: background-color 0.2s ease;
+    font-size: 16.8px;
+    border: none;
+}
+
+#btnEditar:hover {
+
+    background-color: #efefea;
+    color:  #66acdd;
+    cursor: pointer;
+
+}
+
+
+#btnDeletar {
+
+
+    margin-top: 5px;
+    border-radius: 30px;
+    align-self: flex-end;
+    font-size: 14px;
+    padding: 10px;
+    background-color:  #f15656;
+    color: #efefea;
+    transition: background-color 0.2s ease;
+    font-size: 16.8px;
+    border: none;
+}
+
+
+#btnDeletar:hover {
+
+    background-color: #efefea;
+    color:  #eb4b4b;
+    cursor: pointer;
+
+}
+
+
+#btncancelar {
+
+
+    margin-top: 5px;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px;
+    background-color:  #48adf4;
+    color: #efefea;
+    transition: background-color 0.2s ease;
+    font-size: 16.8px;
+    border: none;
+}
+
+#btncancelar:hover {
+
+    background-color: #efefea;
+    color:  #66acdd;
+    cursor: pointer;
+}
+
+
+#overlay {
+
+    position: fixed;
+    inset: 0; 
+
+    background-color: rgba(0, 13, 24, 0.5);
+    backdrop-filter: blur(4px);
+     opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s;
+
+
+}
+
+
+#overlay.ativo {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 
 
 
