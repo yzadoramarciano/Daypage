@@ -32,7 +32,7 @@ botaoNovapagina.addEventListener ('click' , abrirnota)
 
 function abrirnota() {
 
-    window.location.href = '../../novapagina.html'; 
+    window.location.href = 'novapagina.html'; 
 
 }
 
@@ -216,7 +216,7 @@ btnsair.addEventListener ('click' , sairdaconta);
 
 function sairdaconta () {
 
-    window.location.href = '../../index.html'; 
+    window.location.href = '/index.html'; 
 
 }
 
