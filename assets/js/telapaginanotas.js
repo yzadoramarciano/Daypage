@@ -136,7 +136,7 @@ botaovoltar.addEventListener ('click', voltar)
 
 function voltar(){
 
-    window.location.href = '../../home.html';
+    window.location.href = 'home.html';
 }
 
     
@@ -144,7 +144,7 @@ btnsair.addEventListener ('click' , sairdaconta);
 
 function sairdaconta () {
 
-    window.location.href = '../index.html'; 
+    window.location.href = 'index.html'; 
 
 }
 
